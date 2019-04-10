@@ -1,0 +1,48 @@
+.gray-card {
+  background-color: #f4f3f3;
+  position: relative;
+  hr {
+    border-top: 1px solid #ddd !important;
+  }
+}
+.noIco-form {
+  .form-control {
+    background-color: transparent;
+    padding-left: 5px !important;
+  }
+  .control-label {
+    left: 0;
+  }
+}
+.padding-set {
+  padding: 45px 25px;
+}
+.right-set {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.addMore .ico-add {
+  margin-right: 5px;
+}
+.sm-btn {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+.odd-strip {
+  tbody {
+    tr {
+      background-color: #f3f3f4;
+      &:nth-child(4n + 3) {
+        background-color: #e4e4e4;
+      }
+    }
+  }
+  .form-group {
+    margin-bottom: 0;
+  }
+}

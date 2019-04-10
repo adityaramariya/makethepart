@@ -1,0 +1,35 @@
+// The 'Mixins' scss
+@import "mixins/flex.scss";
+
+// The 'Variables' scss
+@import "modules/variables.scss";
+
+// The 'Icons' scss
+@import "modules/icons.scss";
+
+// The 'Inputs' scss
+@import "modules/inputs.scss";
+
+// The 'Buttons' scss
+@import "modules/button.scss";
+
+// The 'Navs' scss
+@import "partials/nav.scss";
+
+@import "dashboard.scss";
+@import "mtp/login.scss";
+@import "mtp/dash-view.scss";
+@import "mtp/add-user.scss";
+@import "mtp/add-part.scss";
+@import "mtp/spaces.scss";
+@import "mtp/common.scss";
+@import "mtp/budget.scss";
+@import "mtp/quotation.scss";
+@import "mtp/table.scss";
+@import "mtp/slider.scss";
+@import "mtp/print.scss";
+@import "mtp/adi.scss";
+@import "mtp/administrator.scss";
+@import "mtp/component.scss";
+@import "./loader.scss";
+@import "./errorPage.scss";

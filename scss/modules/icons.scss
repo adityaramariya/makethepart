@@ -1,0 +1,363 @@
+[class^="ico-"] {
+  display: inline-block;
+  vertical-align: middle;
+  svg {
+    // width: 100%;
+    // height: 100%;
+    pointer-events: none;
+  }
+
+  // ~ span {
+  //   margin-left: 6px;
+  // }
+}
+
+.ico-in {
+  width: 20px;
+  height: 20px;
+  svg {
+    fill: #ccc;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-add {
+  width: 15px;
+  height: 15px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-right {
+  width: 13px;
+  height: 13px;
+  position: relative;
+  margin-right: 10px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+  &.active {
+    &:after {
+      content: "";
+      background: $primary-color;
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      z-index: 0;
+      border-radius: 50%;
+      left: -3px;
+      top: -3px;
+    }
+    svg {
+      fill: #fff;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+
+.ico-return {
+  width: 25px;
+  height: 25px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-db {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  svg {
+    // fill: #5f5454;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-nav {
+  width: 25px;
+  height: 25px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-search {
+  width: 18px;
+  height: 18px;
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-delete {
+  width: 20px;
+  height: 20px;
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-upload {
+  width: 35px;
+  height: 35px;
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-tick {
+  width: 22px;
+  height: 22px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-refresh {
+  width: 20px;
+  height: 20px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-review {
+  width: 22px;
+  height: 22px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-eye {
+  width: 20px;
+  height: 20px;
+  svg {
+    width: 100%;
+    height: 100%;
+    fill: #000;
+  }
+}
+
+.ico-delete1 {
+  width: 26px;
+  height: 26px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-review1 {
+  width: 26px;
+  height: 26px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-download {
+  width: 26px;
+  height: 26px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-r-round {
+  width: 25px;
+  height: 25px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-refresh1 {
+  width: 20px;
+  height: 20px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-download1 {
+  width: 20px;
+  height: 20px;
+  svg {
+    fill: #000;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.fill-green {
+  svg {
+    fill: green !important;
+  }
+}
+.fill-brown {
+  svg {
+    fill: #2face6 !important;
+  }
+}
+.fill-orange {
+  svg {
+    fill: $primary-color !important;
+  }
+}
+.fill-red {
+  svg {
+    fill: #e40000 !important;
+  }
+}
+
+.ico-action {
+  width: 30px;
+  height: 30px;
+  padding: 4px;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-action-sm {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 5px;
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-print {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-up-arrow {
+  width: 20px;
+  height: 20px;
+
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico--right {
+  width: 8px;
+  height: 8px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin: 0 10px 3px;
+}
+.pic-Icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  svg {
+    fill: #4e4343;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.ico-doc-up {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+
+  svg {
+    fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.comment-blue {
+  background-color: #d2e4fe;
+  border-radius: 50%;
+  padding: 9px;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  svg {
+    fill: #7070e0;
+  }
+}
+.ico-reply {
+  width: 25px;
+  height: 25px;
+  svg {
+    // fill: #41535b;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-message {
+  width: 20px;
+  height: 20px;
+  svg {
+    fill: #7070e0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-post {
+  width: 30px;
+  height: 30px;
+  svg {
+    fill: $primary-color;
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-arrow {
+  width: 12px;
+  height: 12px;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.ico-geo {
+  width: 30px;
+  height: 30px;
+  svg {
+    fill: #555;
+    width: 100%;
+    height: 100%;
+  }
+}

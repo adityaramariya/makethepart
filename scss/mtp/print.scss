@@ -1,0 +1,61 @@
+// @media print{
+//     .custom-table tbody tr,
+//     .custom-table thead tr th,
+//     .custom-table tbody tr td
+//     {
+//         font-size: 9px;
+//         padding: 2px;
+//         text-align: left;
+//     }
+
+//     .custom-table.table-bordered,
+//     .custom-table tbody tr,
+//     .custom-table thead tr th,
+//     .custom-table tbody tr td
+//     {
+//         border: 0 !important;
+//     }
+
+//     .table-responsive.table-responsive {
+//         min-height: .01%;
+//         overflow-x: hidden;
+//     }
+//     .printHeading1{
+//         display: block;
+//         font-size: 9px;
+//         padding: 2px;
+//         text-align: left;
+//     }
+
+// }
+
+@media print {
+  .printableTable {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+  }
+  .table tbody tr,
+  .table thead tr th,
+  .table tbody tr td {
+    font-size: 9px;
+    // padding: 2px;
+    text-align: left;
+  }
+
+  // .table.table-bordered,
+  // .table tbody tr,
+  // .table thead tr th,
+  // .table tbody tr td
+  // {
+  //     // border: 0 !important;
+  // }
+  // .custom-table tbody tr:nth-child(even)
+  // {
+  //     height: 0;;
+  // }
+
+  .table-responsive.table-responsive {
+    min-height: 0.01%;
+    overflow-x: hidden;
+  }
+}
