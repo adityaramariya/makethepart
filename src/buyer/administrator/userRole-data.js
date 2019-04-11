@@ -16,29 +16,14 @@ class UserRoleData extends Component{
                         <th><strong>Functions</strong></th>
                         {headerComponents}
                     </tr>
-
-
                 </thead>
+
                 <tbody>
                     <tr>
                         <td>Admin</td>
                         {bodyComponents}
                     </tr>
 
-                    <tr>
-                        <td>Admin</td>
-                        {bodyComponents}
-                    </tr>
-
-                    <tr>
-                        <td>Admin</td>
-                        {bodyComponents}
-                    </tr>
-
-                    <tr>
-                        <td>Admin</td>
-                        {bodyComponents}
-                    </tr>
                 </tbody>
             </Table>
         )
