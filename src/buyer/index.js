@@ -62,6 +62,9 @@ import buildPlanECO2 from './bom/buildPlanECO2';
 import Location from './budgetPurchase/locations';
 //import dummyPage from './budgetPurchase/dummyPage';
 
+import UserRole from './administrator/userRole';
+
+
 import {
   actionUserLogout,
   actionCheckToken,
@@ -430,6 +433,13 @@ class BuyerView extends Component {
           path={`${this.props.match.path}/functionalAreaCost`}
           component={FunctionalAreaCost}
         />
+
+
+          <Route
+              exact
+              path={`${this.props.match.path}/userRole`}
+              component={UserRole}
+          />
 
         {/* <Route
           exact
